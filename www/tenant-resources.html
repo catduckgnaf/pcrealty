@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Storage Solutions - Premier Choice Realty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lora:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Favicon using embedded logo data -->
+    <link id="favicon" rel="icon" type="image/jpeg" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAoAEADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAUCAwYAAQf/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/9oADAMBAAIQAxAAAAG80zC4bY1y1pWq2nRW1VpDY9+nNoaPHzVqL2Wlq6/O6M3W1dEze0aK//EACMQAQACAgICAgIDAAAAAAAAAAECAwQFERIhBhMgMUFRYXD/2gAIAQEAAT8Alnly48TnyW2I/wAjjy482Pz4bbE/GfD8c+HHl+G2xJ8S8vy+Lz/PbbYk8IeV5Pj8/wA9t6R+Knl+Xw+b47dPSvE+J+K4rI2nLky+G9tq0j8IeN5fB4fDfpetfGfC/Hfk+Ky1rOXI37K1iPg/wAPy+Lw/Pa9K/s/oPD0G2rP9d+N+S+X5fDlrWdebJe1q1jH6fD5Pj8+K1K9/wCl+o9Wb6v7H478vzeLz3tbPlvetea/pPD3u2vN+vfleX5fB4sl7XnMvalax+nweH4/PgtSvfpv6n1pvq/u/jfkvm+XwZatefLe9a1j954e9215vt/s/mvnvF5cl7XnJkva1ax+jweHw+fBalY36b+p9ab6v7/wCN+S+b5fBlrWdecve1ax+s8Pe7a832/wB/81894vLktec5MlrVrEf/xAAdEQACAgMBAQEBAAAAAAAAAAAAAQIREhAgITFB/9oACAECAQE/AShRRRRKEoSnlfL+L5ZTyyllPLKeWU8v5Xyo8sRRHllPKPKPKPKPKPKPKPKPKP/EABwRAAICAwEBAAAAAAAAAAAAAAECABEQEiExQP/aAAgBAwEBPwGIiIiIiYiJmZmZmZmZmfBnYnYnYnYnYnYnYnYnYnZn//Z">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-lora { font-family: 'Lora', serif; }
+        .page-header {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/221027/pexels-photo-221027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+            background-size: cover;
+            background-position: center;
+        }
+        .dropdown { position: relative; display: inline-block; }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 220px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 50;
+            border-radius: 0.5rem;
+            padding: 0.5rem 0;
+            border: 1px solid #ddd;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+        .dropdown-content a:hover { background-color: #f1f1f1; }
+        .dropdown:hover .dropdown-content { display: block; }
+        .nav-link {
+             display: flex;
+             align-items: center;
+             gap: 0.25rem;
+             color: #4B5563; /* text-gray-600 */
+             transition: color 0.3s;
+             padding-top: 0.5rem;
+             padding-bottom: 0.5rem;
+        }
+        .nav-link:hover { color: #DC2626; /* text-red-600 */ }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAoAEADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAUCAwYAAQf/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/9oADAMBAAIQAxAAAAG80zC4bY1y1pWq2nRW1VpDY9+nNoaPHzVqL2Wlq6/O6M3W1dEze0aK//EACMQAQACAgICAgIDAAAAAAAAAAECAwQFERIhBhMgMUFRYXD/2gAIAQEAAT8Alnly48TnyW2I/wAjjy482Pz4bbE/GfD8c+HHl+G2xJ8S8vy+Lz/PbbYk8IeV5Pj8/wA9t6R+Knl+Xw+b47dPSvE+J+K4rI2nLky+G9tq0j8IeN5fB4fDfpetfGfC/Hfk+Ky1rOXI37K1iPg/wAPy+Lw/Pa9K/s/oPD0G2rP9d+N+S+X5fDlrWdebJe1q1jH6fD5Pj8+K1K9/wCl+o9Wb6v7H478vzeLz3tbPlvetea/pPD3u2vN+vfleX5fB4sl7XnMvalax+nweH4/PgtSvfpv6n1pvq/u/jfkvm+XwZatefLe9a1j954e9215vt/s/mvnvF5cl7XnJkva1ax+jweHw+fBalY36b+p9ab6v7/wCN+S+b5fBlrWdecve1ax+s8Pe7a832/wB/81894vLktec5MlrVrEf/xAAdEQACAgMBAQEBAAAAAAAAAAAAAQIREhAgITFB/9oACAECAQE/AShRRRRKEoSnlfL+L5ZTyyllPLKeWU8v5Xyo8sRRHllPKPKPKPKPKPKPKPKPKP/EABwRAAICAwEBAAAAAAAAAAAAAAECABEQEiExQP/aAAgBAwEBPwGIiIiIiYiJmZmZmZmZmfBnYnYnYnYnYnYnYnYnYnZn//Z" alt="Premier Choice Realty Logo" class="h-14">
+            </a>
+            <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
+                <a href="our-story.html" class="nav-link">Our Story</a>
+                
+                <div class="dropdown">
+                    <span class="nav-link cursor-pointer font-bold text-red-600">Expertise <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></span>
+                    <div class="dropdown-content">
+                        <a href="community-tours.html">Community Tours</a>
+                        <a href="multi-family.html">Multi-Family Investment</a>
+                        <a href="self-storage.html">Self Storage</a>
+                        <a href="property-management.html">Property Management</a>
+                    </div>
+                </div>
+
+                <a href="community-tours.html" class="nav-link">Community Tours</a>
+
+                <div class="dropdown">
+                    <a href="team.html" class="nav-link">Join Our Team <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                    <div class="dropdown-content">
+                        <a href="team.html#russell-sabadosa">Russell Sabadosa</a>
+                        <a href="team.html#andrew-komarow">Andrew Komarow</a>
+                        <a href="team.html#jonathan-beaty">Jonathan Beaty</a>
+                        <a href="team.html#badadir-akcam">Badadir Akcam</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="https://premierchoicerealty.appfolio.com/connect/users/sign_in" target="_blank" class="nav-link">Tenant Portal <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                    <div class="dropdown-content">
+                        <a href="index.html#faq">Tenant Help</a>
+                        <a href="http://goodtostow.com" target="_blank">Self Storage Portal</a>
+                    </div>
+                </div>
+
+                <a href="https://premierchoicerealty.appfolio.com/connect/users/sign_in" target="_blank" class="bg-red-500 text-white py-2 px-4 rounded-full hover:bg-red-600 transition duration-300">Login</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <a href="our-story.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Our Story</a>
+            <a href="community-tours.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Community Tours</a>
+            <a href="team.html" class="block py-2 px-4 text-sm hover:bg-gray-100">Join Our Team</a>
+            <a href="https://premierchoicerealty.appfolio.com/connect/users/sign_in" target="_blank" class="block py-2 px-4 text-sm hover:bg-gray-100">Tenant Portal</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header h-80 text-white flex items-center justify-center text-center">
+            <div class="max-w-4xl px-6" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                <h1 class="text-5xl md:text-6xl font-bold font-lora leading-tight">Secure Self Storage Solutions</h1>
+                <p class="text-xl md:text-2xl mt-4">Clean, accessible, and affordable storage for your personal and business needs.</p>
+            </div>
+        </section>
+
+        <section class="bg-white py-20">
+            <div class="container mx-auto px-6">
+                <div class="max-w-5xl mx-auto">
+                    <!-- Intro to GoodToStow -->
+                    <div class="mb-16 text-center">
+                        <img src="https://i.imgur.com/G4n3Y0f.png" alt="Good To Stow Logo" class="h-16 mx-auto mb-4">
+                        <h2 class="text-3xl font-bold font-lora text-gray-900 mb-6">Your Partner for Secure Storage</h2>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Through our trusted brand, Good To Stow, we offer modern self-storage facilities designed to meet a variety of needs. Whether you're decluttering, moving, or need extra space for your business inventory, we provide secure, clean, and convenient solutions. Our commitment is to make your storage experience as easy and stress-free as possible.
+                        </p>
+                    </div>
+
+                    <!-- Key Features -->
+                     <div class="mb-16">
+                        <h2 class="text-3xl font-bold font-lora text-gray-900 mb-8 text-center">Why Choose Good To Stow?</h2>
+                        <div class="grid md:grid-cols-3 gap-8 text-center">
+                            <div>
+                                <div class="bg-red-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A9 9 0 102.382 9.984a9.984 9.984 0 001.314 4.885"></path></svg>
+                                </div>
+                                <h3 class="font-bold text-xl mb-2">24/7 Security</h3>
+                                <p>Our facilities are equipped with state-of-the-art surveillance cameras, gated access, and good lighting to ensure your belongings are protected around the clock.</p>
+                            </div>
+                            <div>
+                                <div class="bg-red-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <h3 class="font-bold text-xl mb-2">Flexible Options</h3>
+                                <p>From small units for boxes and documents to large spaces for furniture or vehicles, we offer a wide range of sizes with flexible month-to-month leases.</p>
+                            </div>
+                            <div>
+                                <div class="bg-red-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <h3 class="font-bold text-xl mb-2">Easy Online Management</h3>
+                                <p>Rent a unit, manage your account, and make payments from anywhere through our user-friendly online portal. Convenience is at your fingertips.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Investing in Self-Storage -->
+                    <div class="bg-red-50 p-12 rounded-lg">
+                        <h2 class="text-3xl font-bold font-lora text-gray-900 mb-6 text-center">Self Storage as a Real Estate Investment</h2>
+                        <div class="flex flex-col md:flex-row items-center gap-12">
+                            <div class="md:w-1/2">
+                                <p class="text-lg leading-relaxed text-gray-800">Self-storage is one of the most resilient and fastest-growing sectors in commercial real estate. It offers a unique opportunity for investors seeking stable cash flow and lower management overhead compared to residential properties.</p>
+                                <ul class="list-disc list-inside mt-4 space-y-2 text-gray-700">
+                                    <li><strong>High Demand:</strong> Fueled by life events like moving, downsizing, and business growth, the need for storage remains consistently strong.</li>
+                                    <li><strong>Low Operating Costs:</strong> With fewer tenants and less maintenance than apartments, storage facilities are more cost-effective to operate.</li>
+                                    <li><strong>Recession-Resistant:</strong> The demand for storage often increases during economic downturns, making it a stable investment choice.</li>
+                                </ul>
+                                <p class="mt-4 text-lg">Premier Choice Realty can guide you through the process of acquiring or investing in self-storage facilities. <a href="team.html" class="font-bold text-red-600 hover:underline">Contact our investment team</a> to learn more.</p>
+                            </div>
+                             <div class="md:w-1/2">
+                                <img src="https://placehold.co/600x400/991b1b/fee2e2?text=Invest+in+Storage" class="rounded-lg shadow-md w-full" alt="Self Storage Investment">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action -->
+        <section class="bg-gray-800 text-white py-16 text-center">
+            <h2 class="text-3xl font-bold font-lora">Find Your Space Today</h2>
+            <p class="mt-4 text-lg max-w-2xl mx-auto">Ready to rent a unit or learn more about our facilities? Visit our dedicated self storage portal.</p>
+            <div class="mt-8">
+                 <a href="http://goodtostow.com" target="_blank" class="bg-red-600 text-white font-bold py-3 px-8 rounded-full hover:bg-red-700 transition duration-300">Go to GoodToStow.com</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <a href="index.html">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAoAEADASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAABAUCAwYAAQf/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/9oADAMBAAIQAxAAAAG80zC4bY1y1pWq2nRW1VpDY9+nNoaPHzVqL2Wlq6/O6M3W1dEze0aK//EACMQAQACAgICAgIDAAAAAAAAAAECAwQFERIhBhMgMUFRYXD/2gAIAQEAAT8Alnly48TnyW2I/wAjjy482Pz4bbE/GfD8c+HHl+G2xJ8S8vy+Lz/PbbYk8IeV5Pj8/wA9t6R+Knl+Xw+b47dPSvE+J+K4rI2nLky+G9tq0j8IeN5fB4fDfpetfGfC/Hfk+Ky1rOXI37K1iPg/wAPy+Lw/Pa9K/s/oPD0G2rP9d+N+S+X5fDlrWdebJe1q1jH6fD5Pj8+K1K9/wCl+o9Wb6v7H478vzeLz3tbPlvetea/pPD3u2vN+vfleX5fB4sl7XnMvalax+nweH4/PgtSvfpv6n1pvq/u/jfkvm+XwZatefLe9a1j954e9215vt/s/mvnvF5cl7XnJkva1ax+jweHw+fBalY36b+p9ab6v7/wCN+S+b5fBlrWdecve1ax+s8Pe7a832/wB/81894vLktec5MlrVrEf/xAAdEQACAgMBAQEBAAAAAAAAAAAAAQIREhAgITFB/9oACAECAQE/AShRRRRKEoSnlfL+L5ZTyyllPLKeWU8v5Xyo8sRRHllPKPKPKPKPKPKPKPKPKP/EABwRAAICAwEBAAAAAAAAAAAAAAECABEQEiExQP/aAAgBAwEBPwGIiIiIiYiJmZmZmZmZmfBnYnYnYnYnYnYnYnYnYnZn//Z" alt="Premier Choice Realty Logo" class="h-14 mx-auto mb-4">
+            </a>
+            <p class="font-semibold">Premier Choice Realty</p>
+            <p class="text-gray-400">916 Belmont Ave, Springfield, MA 01108 | Main Office: 413-324-4409</p>
+            <div class="flex justify-center space-x-4 mt-4 mb-4">
+                 <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
+                 <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg></a>
+            </div>
+            <p class="text-gray-500 text-sm">&copy; <span id="year"></span> PCRealty.com. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
